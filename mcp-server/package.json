@@ -1,0 +1,32 @@
+{
+  "name": "weekly-update-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for managing data sources in Weekly",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "inspect": "node --inspect dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "slack",
+    "zoom",
+    "chorus",
+    "google-sheets"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@slack/web-api": "^7.0.0",
+    "@googleapis/sheets": "^8.0.0",
+    "googleapis": "^131.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

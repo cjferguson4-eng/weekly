@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "weekly-update": {
+      "command": "node",
+      "args": ["dist/index.js"],
+      "env": {
+        "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}",
+        "SLACK_USER_TOKEN": "${SLACK_USER_TOKEN}",
+        "GOOGLE_CLIENT_ID": "${GOOGLE_CLIENT_ID}",
+        "GOOGLE_CLIENT_SECRET": "${GOOGLE_CLIENT_SECRET}",
+        "GOOGLE_REFRESH_TOKEN": "${GOOGLE_REFRESH_TOKEN}",
+        "ZOOM_CLIENT_ID": "${ZOOM_CLIENT_ID}",
+        "ZOOM_CLIENT_SECRET": "${ZOOM_CLIENT_SECRET}",
+        "ZOOM_ACCOUNT_ID": "${ZOOM_ACCOUNT_ID}",
+        "CHORUS_API_KEY": "${CHORUS_API_KEY}",
+        "CHORUS_API_BASE_URL": "${CHORUS_API_BASE_URL}",
+        "LOG_LEVEL": "info"
+      }
+    }
+  }
+}
+
