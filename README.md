@@ -311,11 +311,4 @@ This is a demonstration project built according to the Product Requirements Docu
 
 MIT License - feel free to use this as a starting point for your own implementation.
 
-## Support
-
-For questions or issues, please refer to the PRD or contact the development team.
-
----
-
-*This application demonstrates the workflow and UI/UX for Weekly as specified in the Product Requirements Document.*
 
